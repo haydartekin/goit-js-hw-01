@@ -2,7 +2,7 @@ console.log("- TASK-2 -")
 
 
 function getShippingMessage(country, Price, DeliveryFee) {
-    const totalPrice = Price + DeliveryFee
+    let totalPrice = Price + DeliveryFee
     return "Shipping to "+ country +" will cost " + totalPrice + " credits! ";
 }
 console.log(getShippingMessage("Australia", 120, 50))
